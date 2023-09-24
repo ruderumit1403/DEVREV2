@@ -35,11 +35,11 @@ export default function navbar(){
         </a>
 
         <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-          Welcome to RN LIBRARY 🦑
+        Welcome to Online Library 🦑
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Where your future is ruined by us.
+        Welcome to our online library, your gateway to a universe of knowledge, entertainment, and inspiration. By creating an account, you'll embark on a reading journey like no other. 
         </p>
       </div>
     </section>
@@ -70,12 +70,11 @@ export default function navbar(){
           <h1
             className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl"
           >
-            Welcome to Squid 🦑
+            Welcome Online Library 🦑
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            nam dolorum aliquam, quibusdam aperiam voluptatum.
+          Welcome to our online library, your gateway to a universe of knowledge, entertainment, and inspiration. By creating an account, you'll embark on a reading journey like no other. Here's why you should become a member today:
           </p>
         </div>
 
