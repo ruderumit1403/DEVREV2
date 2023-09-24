@@ -13,13 +13,11 @@ import "./products.css";
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <header>
       <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-        Product Collection
+        Book Collection
       </h2>
 
       <p className="mt-4 max-w-md text-gray-500">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-        praesentium cumque iure dicta incidunt est ipsam, officia dolor fugit
-        natus?
+      Discover our Book Collection, a curated selection of literary gems spanning various genres, ready to transport you to worlds of imagination and knowledge
       </p>
     </header>
 
@@ -195,7 +193,7 @@ import "./products.css";
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button><a href="https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf">Read</a></button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button><a href="https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf">Read For Free</a></button> </span>
                 </p>
               </div>
             </a>
@@ -219,7 +217,7 @@ import "./products.css";
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -243,7 +241,7 @@ import "./products.css";
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -267,7 +265,7 @@ import "./products.css";
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -292,16 +290,16 @@ import "./products.css";
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
           </li>
           {/* Book 6 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://drive.google.com/file/d/1Kwq80L2xKTnRONJzC5ZWZaxZnQqRIDRb/view?usp=sharing" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/91Aj-SVNdHL._SY466_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -310,13 +308,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  How to destroy America in Three Easy Steps
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -324,9 +322,9 @@ import "./products.css";
 
           {/* Book 7 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://drive.google.com/file/d/1HSZusdx2mgyEvc2pUHLzHL_w8DeuITxH/view?usp=sharing" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/71gepHHooVL._SY466_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -335,13 +333,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  An End to Upside Down Living: Reorienting Our Consciousness to Live Better and Save the Human Species
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -349,9 +347,9 @@ import "./products.css";
 
           {/* Book 8 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://drive.google.com/file/d/1JQcgAkq6EyPD-lzKxYhVGrGbhekqAG2K/view?usp=sharing" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/51qnj1cs7gL._SY445_SX342_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -360,13 +358,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  The Love Hypothesis
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -374,9 +372,9 @@ import "./products.css";
 
           {/* Book 9 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/63be777c80dbf-one-indian-girl.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZ0zfXRqMaWAIwUwgql5tZ0uyHudzW5SuXxLHHOqmlm_EZj2i"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -385,13 +383,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  One Indian Girl
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -399,9 +397,9 @@ import "./products.css";
 
           {/* Book 10 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/650773b34ae3e-me-before-you.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://cdn2.penguin.com.au/covers/original/9780718177027.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -410,13 +408,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  Me Before You
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -424,9 +422,9 @@ import "./products.css";
 
           {/* Book 11 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/62e43a5269887-usefull-tips-to-find-your-life-partner-on-the-internet.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/51hVJ3aA56L._SY445_SX342_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -435,13 +433,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  Usefull Tips To Find Your Life Partner On The Internet
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -449,9 +447,9 @@ import "./products.css";
 
           {/* Book 12 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/62e70d4b9aa0b-accounting-principles.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/51UXPT+kUyL._SY445_SX342_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -460,13 +458,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  E-commerce Bussiness
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -474,9 +472,9 @@ import "./products.css";
 
           {/* Book 13 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/64d01358e1588-no-drama-discipline.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/81VVwZhmaDL._SY466_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -485,13 +483,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  No Drama Discipline
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -499,9 +497,9 @@ import "./products.css";
 
           {/* Book 14 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/64d00f578e393-the-gifts-of-imperfection.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/71aHmBv498L._SY466_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -510,13 +508,13 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  The Gifts of Imperfection
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
@@ -524,9 +522,9 @@ import "./products.css";
 
           {/* Book 15 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.junkybooks.com/book/reader.php?book=thebooks/6473572337261-the-laws-of-human-nature.pdf" className="group block overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
+                src="https://m.media-amazon.com/images/I/71LSBRGbSoL._AC_UF1000,1000_QL80_.jpg"
                 alt=""
                 className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
               />
@@ -535,395 +533,17 @@ import "./products.css";
                 <h3
                   className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  1857 Ka Savtantrta Samar
+                  The Laws Of Human Nature
                 </h3>
 
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read For Free</button> </span>
                 </p>
               </div>
             </a>
-          </li>
-
-          {/* Book 16 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 17 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 18 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 19 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 20 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 21 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 22 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 23 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 24 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 25 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 26 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 27 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 28 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 29 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-          {/* Book 30 */}
-          <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
-              <img
-                src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
-                alt=""
-                className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-              />
-
-              <div className="relative bg-white pt-3">
-                <h3
-                  className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-                >
-                  1857 Ka Savtantrta Samar
-                </h3>
-
-                <p className="mt-2">
-                  <span className="sr-only"> Regular Price </span>
-
-                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
-                </p>
-              </div>
-            </a>
-          </li>
-
-
-          
+          </li>          
         </ul>
       </div>
     </div>
@@ -935,7 +555,7 @@ import "./products.css";
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 */}
 
-<ol className="flex justify-center gap-1 text-xs font-medium">
+{/* <ol className="flex justify-center gap-1 text-xs font-medium">
   <li>
     <a
       href="#"
@@ -962,7 +582,7 @@ import "./products.css";
       href="#"
       className="block h-8 w-8 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900 "
     >
-      1
+      <a href=""></a>1
     </a>
   </li>
 
@@ -1010,7 +630,7 @@ import "./products.css";
       </svg>
     </a>
   </li>
-</ol>
+</ol> */}
 </section>
    );
 }

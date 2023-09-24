@@ -31,16 +31,16 @@ export default function navbar(){
               <li>
                 <a
                   class="text-gray-500 transition hover:text-gray-500/75"
-                  href="/"
+                  href="https://www.linkedin.com/in/rumit-nagori/"
                 >
-                  About Us
+                  About Me
                 </a>
               </li>
   
               <li>
                 <a
                   class="text-gray-500 transition hover:text-gray-500/75"
-                  href="/"
+                  href="https://forms.gle/dVKrruyKvH4am8Y36"
                 >
                   Publish Your Journal
                 </a>
