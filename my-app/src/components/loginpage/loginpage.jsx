@@ -1,6 +1,6 @@
 import React from 'react';
 import "./login.css";
-import { Link } from "react-router-dom";
+
 
 export default function navbar(){
    return(
@@ -10,11 +10,12 @@ export default function navbar(){
 <section className="relative flex flex-wrap lg:h-screen lg:items-center">
   <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
     <div className="mx-auto max-w-lg text-center">
-      <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">Welcome to our Library Management System!</h1>
 
       <p className="mt-4 text-gray-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
-        eaque error neque ipsa culpa autem, at itaque nostrum!
+      
+
+We're delighted to have you here, whether you're a dedicated library staff member or a valued library patron. Our online system is designed to streamline the library experience, making it easier than ever to manage library resources and access a world of knowledge.
       </p>
     </div>
 

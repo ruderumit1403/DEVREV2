@@ -1,13 +1,89 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./footer.css";
 
+export default function Navbar() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
 
-export default function navbar(){
-   return(
-   
+  const handleSearch = async () => {
+    try {
+      const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchQuery}`);
+      const data = await response.json();
+      setSearchResults(data.items || []);
+    } catch (error) {
+      console.error('Error searching for books:', error);
+    }
+  }
 
-<footer className="bg-white">
-  <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+  const truncateDescription = (description, maxLines) => {
+    const lines = description.split('\n');
+    if (lines.length <= maxLines) {
+      return description;
+    }
+    return lines.slice(0, maxLines).join('\n');
+  }
+
+  const [showFullDescription, setShowFullDescription] = useState(false);
+
+  return (
+    <div>
+      <div className="bg-white p-4">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-md">
+            <input
+              type="text"
+              placeholder="Find Your Book Here"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full rounded-full border-gray-200 bg-gray-100 p-4 text-sm font-medium"
+            />
+            <button
+              onClick={handleSearch}
+              className="mt-2 px-5 py-3 bg-blue-600 rounded-full text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:border-blue-500"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer className="bg-white">
+        <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+          {searchResults.length > 0 && (
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Search Results</h2>
+              <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {searchResults.map((book) => (
+                  <li key={book.id} className="bg-gray-100 p-4 rounded-lg">
+                    <img
+                      src={book.volumeInfo.imageLinks?.thumbnail || 'https://via.placeholder.com/128x192.png?text=No+Image'}
+                      alt={book.volumeInfo.title}
+                      className="w-full h-auto rounded-lg mb-2"
+                    />
+                    <h3 className="text-lg font-medium">{book.volumeInfo.title}</h3>
+                    <p className="text-sm text-gray-600">
+                      {showFullDescription
+                        ? book.volumeInfo.description || 'No description available.'
+                        : truncateDescription(book.volumeInfo.description || 'No description available.', 10)}
+                      {book.volumeInfo.description && book.volumeInfo.description.split('\n').length > 10 && (
+                        <span>
+                          <button
+                            className="text-blue-600 hover:underline cursor-pointer"
+                            onClick={() => setShowFullDescription(!showFullDescription)}
+                          >
+                            {showFullDescription ? 'Read Less' : 'Read More'}
+                          </button>
+                        </span>
+                      )}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+        {/* ... (your existing footer code) */}
+        {/* <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8"> */}
     <div className="mx-auto max-w-md">
       <strong
         className="block text-center text-xl font-bold text-gray-900 sm:text-3xl"
@@ -208,6 +284,7 @@ export default function navbar(){
       </p>
     </div>
   </div>
-</footer>
-   );
+      </footer>
+    </div>
+  );
 }
