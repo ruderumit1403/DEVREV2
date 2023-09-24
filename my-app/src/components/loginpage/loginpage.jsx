@@ -1,6 +1,6 @@
 import React from 'react';
 import "./login.css";
-
+import { Link } from "react-router-dom";
 
 export default function navbar(){
    return(
@@ -18,7 +18,7 @@ export default function navbar(){
       </p>
     </div>
 
-    <form action="" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
+    <form action="/main" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
       <div>
         <label htmlFor="email" className="sr-only">Email</label>
 
@@ -26,7 +26,7 @@ export default function navbar(){
           <input
             type="email"
             className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-            placeholder="Enter email"
+            placeholder="Enter email" required
           />
 
           <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -55,7 +55,7 @@ export default function navbar(){
           <input
             type="password"
             className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-            placeholder="Enter password"
+            placeholder="Enter password" required
           />
 
           <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -88,9 +88,9 @@ export default function navbar(){
           No account?
           <a className="underline" href="/register">Sign up</a>
         </p>
-
+   
         <button
-          type="submit"
+          type="submit" 
           className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
         >
           Sign in

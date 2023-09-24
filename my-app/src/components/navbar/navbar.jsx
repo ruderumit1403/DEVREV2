@@ -3,6 +3,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 
 export default function navbar(){
+ 
    return(
     <header class="bg-white">
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -32,7 +33,7 @@ export default function navbar(){
                   class="text-gray-500 transition hover:text-gray-500/75"
                   href="/"
                 >
-                  About
+                  About Us
                 </a>
               </li>
   
@@ -41,43 +42,7 @@ export default function navbar(){
                   class="text-gray-500 transition hover:text-gray-500/75"
                   href="/"
                 >
-                  Careers
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
-                  href="/"
-                >
-                  History
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
-                  href="/"
-                >
-                  Services
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
-                  href="/"
-                >
-                  Projects
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
-                  href="/"
-                >
-                  Blog
+                  Publish Your Journal
                 </a>
               </li>
             </ul>
@@ -85,12 +50,7 @@ export default function navbar(){
   
           <div class="flex items-center gap-4">
             <div class="sm:flex sm:gap-4">
-              {/* <a
-                class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-                href="/l"
-              >
-                Login
-              </a> */}
+              
               <Link  className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow" to="/login">Login</Link>
   
               <div class="hidden sm:flex">

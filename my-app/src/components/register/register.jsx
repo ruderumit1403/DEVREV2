@@ -1,6 +1,7 @@
 import React from 'react';
 import '../register/register.css';
 import { Link } from "react-router-dom";
+import { Redirect } from 'react-router-dom'
 
 export default function navbar(){
    return(
@@ -13,7 +14,7 @@ export default function navbar(){
     >
       <img
         alt="Night"
-        src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        src="https://i.pinimg.com/originals/4a/81/20/4a812006df5df83e46e3f8452f68d01a.jpg"
         className="absolute inset-0 h-full w-full object-cover opacity-80"
       />
 
@@ -34,12 +35,11 @@ export default function navbar(){
         </a>
 
         <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-          Welcome to Squid 🦑
+          Welcome to RN LIBRARY 🦑
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
-          dolorum aliquam, quibusdam aperiam voluptatum.
+          Where your future is ruined by us.
         </p>
       </div>
     </section>
@@ -79,7 +79,7 @@ export default function navbar(){
           </p>
         </div>
 
-        <form action="#" className="mt-8 grid grid-cols-6 gap-6">
+        <form action="/main" className="mt-8 grid grid-cols-6 gap-6">
           <div className="col-span-6 sm:col-span-3">
             <label
               htmlFor="FirstName"
@@ -92,7 +92,7 @@ export default function navbar(){
               type="text"
               id="FirstName"
               name="first_name"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" required
             />
           </div>
 
@@ -108,7 +108,7 @@ export default function navbar(){
               type="text"
               id="LastName"
               name="last_name"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" required
             />
           </div>
 

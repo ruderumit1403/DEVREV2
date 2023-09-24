@@ -2,7 +2,10 @@ import React from 'react';
 import "./products.css";
 
 
-export default function navbar(){
+
+ export default function navbar(){
+
+
    return(
    
 
@@ -69,7 +72,7 @@ export default function navbar(){
               <summary
                 className="flex cursor-pointer items-center justify-between gap-2 p-4 text-gray-900 transition"
               >
-                <span className="text-sm font-medium"> Availability </span>
+                <span className="text-sm font-medium"> Genre </span>
 
                 <span className="transition group-open:-rotate-180">
                   <svg
@@ -90,18 +93,26 @@ export default function navbar(){
               </summary>
 
               <div className="border-t border-gray-200 bg-white">
-                <header className="flex items-center justify-between p-4">
-                  <span className="text-sm text-gray-700"> 0 Selected </span>
-
-                  <button
-                    type="button"
-                    className="text-sm text-gray-900 underline underline-offset-4"
-                  >
-                    Reset
-                  </button>
-                </header>
+                
 
                 <ul className="space-y-1 border-t border-gray-200 p-4">
+                  <li>
+                    <label
+                      htmlFor="FilterInStock"
+                      className="inline-flex items-center gap-2"
+                    >
+                      <input
+                        type="checkbox"
+                        id="FilterInStock"
+                        className="h-5 w-5 rounded border-gray-300" value="r"
+                      />
+
+                      <span className="text-sm font-medium text-gray-700">
+                      Religious
+                      </span>
+                    </label>
+                  </li>
+
                   <li>
                     <label
                       htmlFor="FilterInStock"
@@ -114,24 +125,24 @@ export default function navbar(){
                       />
 
                       <span className="text-sm font-medium text-gray-700">
-                        In Stock (5+)
+                        Romantic
                       </span>
                     </label>
                   </li>
 
                   <li>
                     <label
-                      htmlFor="FilterPreOrder"
+                      htmlFor="FilterInStock"
                       className="inline-flex items-center gap-2"
                     >
                       <input
                         type="checkbox"
-                        id="FilterPreOrder"
+                        id="FilterInStock"
                         className="h-5 w-5 rounded border-gray-300"
                       />
 
                       <span className="text-sm font-medium text-gray-700">
-                        Pre Order (3+)
+                        Dramatic
                       </span>
                     </label>
                   </li>
@@ -148,7 +159,7 @@ export default function navbar(){
                       />
 
                       <span className="text-sm font-medium text-gray-700">
-                        Out of Stock (10+)
+                        Assorted
                       </span>
                     </label>
                   </li>
@@ -156,220 +167,9 @@ export default function navbar(){
               </div>
             </details>
 
-            <details
-              className="overflow-hidden rounded border border-gray-300 [&_summary::-webkit-details-marker]:hidden"
-            >
-              <summary
-                className="flex cursor-pointer items-center justify-between gap-2 p-4 text-gray-900 transition"
-              >
-                <span className="text-sm font-medium"> Price </span>
+           
 
-                <span className="transition group-open:-rotate-180">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </span>
-              </summary>
-
-              <div className="border-t border-gray-200 bg-white">
-                <header className="flex items-center justify-between p-4">
-                  <span className="text-sm text-gray-700">
-                    The highest price is $600
-                  </span>
-
-                  <button
-                    type="button"
-                    className="text-sm text-gray-900 underline underline-offset-4"
-                  >
-                    Reset
-                  </button>
-                </header>
-
-                <div className="border-t border-gray-200 p-4">
-                  <div className="flex justify-between gap-4">
-                    <label
-                      htmlFor="FilterPriceFrom"
-                      className="flex items-center gap-2"
-                    >
-                      <span className="text-sm text-gray-600">$</span>
-
-                      <input
-                        type="number"
-                        id="FilterPriceFrom"
-                        placeholder="From"
-                        className="w-full rounded-md border-gray-200 shadow-sm sm:text-sm"
-                      />
-                    </label>
-
-                    <label htmlFor="FilterPriceTo" className="flex items-center gap-2">
-                      <span className="text-sm text-gray-600">$</span>
-
-                      <input
-                        type="number"
-                        id="FilterPriceTo"
-                        placeholder="To"
-                        className="w-full rounded-md border-gray-200 shadow-sm sm:text-sm"
-                      />
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </details>
-
-            <details
-              className="overflow-hidden rounded border border-gray-300 [&_summary::-webkit-details-marker]:hidden"
-            >
-              <summary
-                className="flex cursor-pointer items-center justify-between gap-2 p-4 text-gray-900 transition"
-              >
-                <span className="text-sm font-medium"> Colors </span>
-
-                <span className="transition group-open:-rotate-180">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </span>
-              </summary>
-
-              <div className="border-t border-gray-200 bg-white">
-                <header className="flex items-center justify-between p-4">
-                  <span className="text-sm text-gray-700"> 0 Selected </span>
-
-                  <button
-                    type="button"
-                    className="text-sm text-gray-900 underline underline-offset-4"
-                  >
-                    Reset
-                  </button>
-                </header>
-
-                <ul className="space-y-1 border-t border-gray-200 p-4">
-                  <li>
-                    <label
-                      htmlFor="FilterRed"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <input
-                        type="checkbox"
-                        id="FilterRed"
-                        className="h-5 w-5 rounded border-gray-300"
-                      />
-
-                      <span className="text-sm font-medium text-gray-700">
-                        Red
-                      </span>
-                    </label>
-                  </li>
-
-                  <li>
-                    <label
-                      htmlFor="FilterBlue"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <input
-                        type="checkbox"
-                        id="FilterBlue"
-                        className="h-5 w-5 rounded border-gray-300"
-                      />
-
-                      <span className="text-sm font-medium text-gray-700">
-                        Blue
-                      </span>
-                    </label>
-                  </li>
-
-                  <li>
-                    <label
-                      htmlFor="FilterGreen"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <input
-                        type="checkbox"
-                        id="FilterGreen"
-                        className="h-5 w-5 rounded border-gray-300"
-                      />
-
-                      <span className="text-sm font-medium text-gray-700">
-                        Green
-                      </span>
-                    </label>
-                  </li>
-
-                  <li>
-                    <label
-                      htmlFor="FilterOrange"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <input
-                        type="checkbox"
-                        id="FilterOrange"
-                        className="h-5 w-5 rounded border-gray-300"
-                      />
-
-                      <span className="text-sm font-medium text-gray-700">
-                        Orange
-                      </span>
-                    </label>
-                  </li>
-
-                  <li>
-                    <label
-                      htmlFor="FilterPurple"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <input
-                        type="checkbox"
-                        id="FilterPurple"
-                        className="h-5 w-5 rounded border-gray-300"
-                      />
-
-                      <span className="text-sm font-medium text-gray-700">
-                        Purple
-                      </span>
-                    </label>
-                  </li>
-
-                  <li>
-                    <label
-                      htmlFor="FilterTeal"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <input
-                        type="checkbox"
-                        id="FilterTeal"
-                        className="h-5 w-5 rounded border-gray-300"
-                      />
-
-                      <span className="text-sm font-medium text-gray-700">
-                        Teal
-                      </span>
-                    </label>
-                  </li>
-                </ul>
-              </div>
-            </details>
+            
           </div>
         </div>
       </div>
@@ -378,7 +178,7 @@ export default function navbar(){
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Book 1 */}
           <li>
-            <a href="https://rb.gy/6snip" className="group block overflow-hidden">
+            <a href="https://rb.gy/6snip" className="group block overflow-hidden religious">
               <img
                 src="https://ia600303.us.archive.org/BookReader/BookReaderImages.php?zip=/13/items/HindiBook-shriRamChritManas-1.pdf/HindiBook-shriRamChritManas-1_jp2.zip&file=HindiBook-shriRamChritManas-1_jp2/HindiBook-shriRamChritManas-1_0000.jp2&id=HindiBook-shriRamChritManas-1.pdf&scale=4&rotate=0"
                 alt=""
@@ -395,14 +195,14 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button><a href="https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf">Read</a></button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button><a href="https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf">Read</a></button> </span>
                 </p>
               </div>
             </a>
           </li>
 {/* Book 2 */}
           <li>
-            <a href="http://rb.gy/jrwzy" className="group block overflow-hidden">
+            <a href="http://rb.gy/jrwzy" className="group block overflow-hidden religious">
               <img
                 src="https://www.holybooks.com/wp-content/uploads/The-Mahabharata-PDF.jpg"
                 alt=""
@@ -419,14 +219,14 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
           </li>
           {/* Book 3 */}
           <li>
-            <a href="http://rb.gy/ko6ry" className="group block overflow-hidden">
+            <a href="http://rb.gy/ko6ry" className="group block overflow-hidden religious">
               <img
                 src="https://m.media-amazon.com/images/I/41K75k3WFVL._SY445_SX342_.jpg"
                 alt=""
@@ -443,14 +243,14 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
           </li>
           {/* Book 4 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden religious" >
               <img
                 src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631634958i/99944.jpg"
                 alt=""
@@ -467,7 +267,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -475,7 +275,7 @@ export default function navbar(){
 
           {/* Book 5 */}
           <li>
-            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden">
+            <a href="https://www.dlshq.org/download2/bgita.pdf" className="group block overflow-hidden romantic">
               <img
                 src="https://m.media-amazon.com/images/I/61NsVD4xLbL._SY466_.jpg"
                 alt=""
@@ -492,7 +292,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -516,7 +316,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -541,7 +341,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -566,7 +366,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -591,7 +391,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -616,7 +416,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -641,7 +441,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -666,7 +466,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -691,7 +491,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -716,7 +516,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -741,7 +541,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -766,7 +566,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -791,7 +591,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -816,7 +616,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -841,7 +641,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -866,7 +666,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -891,7 +691,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -916,7 +716,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -941,7 +741,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -966,7 +766,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -991,7 +791,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -1016,7 +816,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -1041,7 +841,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -1066,7 +866,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -1091,7 +891,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -1116,7 +916,7 @@ export default function navbar(){
                 <p className="mt-2">
                   <span className="sr-only"> Regular Price </span>
 
-                  <span className="tracking-wider text-gray-900"> <button>Read</button> </span>
+                  <span className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"> <button>Read</button> </span>
                 </p>
               </div>
             </a>
@@ -1128,6 +928,90 @@ export default function navbar(){
       </div>
     </div>
   </div>
+
+  {/*
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+*/}
+
+<ol className="flex justify-center gap-1 text-xs font-medium">
+  <li>
+    <a
+      href="#"
+      className="inline-flex h-8 w-8 items-center justify-center rounded border border-gray-100 bg-white text-gray-900 rtl:rotate-180"
+    >
+      <span className="sr-only">Prev Page</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-3 w-3"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="#"
+      className="block h-8 w-8 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900 "
+    >
+      1
+    </a>
+  </li>
+
+  <li
+    className="block h-8 w-8 rounded border-blue-600 bg-blue-600 text-center leading-8 text-white"
+  >
+    2
+  </li>
+
+  <li>
+    <a
+      href="#"
+      className="block h-8 w-8 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900"
+    >
+      3
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="#"
+      className="block h-8 w-8 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900"
+    >
+      4
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="#"
+      className="inline-flex h-8 w-8 items-center justify-center rounded border border-gray-100 bg-white text-gray-900 rtl:rotate-180"
+    >
+      <span className="sr-only">Next Page</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-3 w-3"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </a>
+  </li>
+</ol>
 </section>
    );
 }
+
